@@ -1,0 +1,106 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+nav{
+    display: flex; 
+    border-radius: 100px;
+    font-weight: bold;
+    border-width: 20%;
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 50px;
+    display: flex;
+   
+}
+
+.navbutton{
+    padding-left: 65%;
+    padding-right: 10px;
+    padding-top: 25px;
+    margin-top: 10px;
+   
+}
+    
+
+    a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 25px;
+
+}
+
+a:hover{
+    color: red;
+}
+
+.active{
+    color: rgb(0, 128, 255);
+}
+
+.details1{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.details1 h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(0, 128, 255);
+
+}
+
+.details1 h3{
+    color:  rgb(0, 128, 255);
+    margin-top: 20px;
+}
+
+.details1 p{
+    color: black ;
+    font-weight : bold;
+    margin-top: 20px;
+    
+}
+.details1 button{
+    background-color: rgb(0, 128, 255);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+.image {
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+.image:hover .bg{
+    bottom: 40px;
+
+}
+
+.image:hover .mypic{
+    left: 45%;
+}
+
